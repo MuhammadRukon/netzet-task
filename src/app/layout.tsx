@@ -3,7 +3,7 @@ import { Figtree } from "next/font/google";
 import "./globals.css";
 
 const figtree = Figtree({
-  fallback: ["system-ui", "arial"],
+  subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
 
