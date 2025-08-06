@@ -1,11 +1,6 @@
 import React from "react";
+import { IAnnouncementBarProps } from "./AnnouncementBar.types";
 
-interface IAnnouncementBarProps {
-  text: string;
-  highlightText?: string;
-  icon?: React.ReactNode | string;
-  children?: React.ReactNode;
-}
 export function AnnouncementBar({
   text,
   highlightText,
@@ -13,7 +8,7 @@ export function AnnouncementBar({
   children,
 }: IAnnouncementBarProps) {
   return (
-    <div className="w-full bg-[linear-gradient(to_right,#FC004E_0%,#10CBE0_100%)] p-5 sm:py-2.5 text-center font-extrabold text-white sm:text-[22px]">
+    <div className="bg-[linear-gradient(to_right,#FC004E_0%,#10CBE0_100%)] p-5 sm:py-2.5 text-center font-extrabold text-white sm:text-[22px]">
       {children ?? (
         <>
           {icon}
