@@ -5,6 +5,7 @@
   --foreground: #171717;
   --primary: #fc004e;
   --secondary: #00e7f9;
+  --font-urbanist: "Urbanist", sans-serif;
 }
 
 @theme inline {
@@ -12,6 +13,7 @@
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
+  --font-urbanist: var(--font-urbanist);
 }
 
 @media (prefers-color-scheme: dark) {
