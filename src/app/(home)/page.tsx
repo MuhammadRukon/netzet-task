@@ -1,16 +1,12 @@
-import { AnnouncementBar } from "@/components/announcement-bar/AnnouncementBar";
-import { Header } from "@/components/header/Header";
+import { Container } from "@/components/container/Container";
+import { Hero } from "@/components/hero/Hero";
 
 export default function Home() {
   return (
-    <div className="bg-black w-full h-screen">
-      <AnnouncementBar
-        icon={"🚀"}
-        highlightText="FRESH BEGINNINGS SALE:"
-        text="Extra 25% OFF, Limited Spots - start your journey today!"
-      />
-
-      <Header />
+    <div className="w-full relative sm:bg-[url('/heroImage.png')] bg-contain bg-[position:calc(100%-15%)_center] bg-no-repeat">
+      <Container>
+        <Hero />
+      </Container>
     </div>
   );
 }

@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Figtree } from "next/font/google";
+import { Figtree, Urbanist } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components/header/Header";
 
 const figtree = Figtree({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+});
+
+const urbanist = Urbanist({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
@@ -19,7 +25,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${figtree.className} antialiased`}>{children}</body>
+      <body className={`${figtree.className} antialiased`}>
+        <div className="bg-black text-white">
+          <Header />
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
