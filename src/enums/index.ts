@@ -1,4 +1,4 @@
 export enum ContainerType {
-  NAVBAR = "navbar",
+  HEADER = "header",
   BODY = "body",
 }

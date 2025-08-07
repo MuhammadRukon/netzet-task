@@ -1,4 +1,5 @@
 import React from "react";
+
 import { IAnnouncementBarProps } from "./AnnouncementBar.types";
 
 export function AnnouncementBar({
