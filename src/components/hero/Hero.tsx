@@ -17,11 +17,11 @@ Hero.Image = function () {
   return (
     <Image
       src={"/heroImage.png"}
-      height={1000}
-      width={1000}
+      height={400}
+      width={400}
       alt="hero-image"
       className="w-full -mt-2 md:hidden"
-      quality={100}
+      quality={90}
     />
   );
 };
