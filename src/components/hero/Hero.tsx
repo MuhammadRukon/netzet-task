@@ -48,7 +48,7 @@ Hero.Content = function () {
   ];
 
   return (
-    <div className="max-w-[516px] md:pt-[57px] text-center md:text-left">
+    <div className=" md:max-w-[450px] lg:max-w-[516px] md:pt-[57px] text-center md:text-left">
       <h1 className="font-urbanist text-[25px] md:text-[35px] font-extrabold md:font-bold leading-[110%]">
         Want to Turn Social Media Into a Profitable Career?
         <span className="block text-shadow-primary text-shadow-[0_4px_4px_rgba(0,0,0,1)] text-secondary">
