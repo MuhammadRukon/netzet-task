@@ -2,9 +2,9 @@ import React from "react";
 
 export function Logo() {
   return (
-    <div className="justify-self-center sm:justify-self-start">
+    <div className="justify-self-center md:justify-self-start">
       <svg
-        className="w-[108px] h-[47px] sm:w-[174px] sm:h-[74px]"
+        className="w-[108px] h-[47px] md:w-[174px] md:h-[74px]"
         viewBox="0 0 108 47"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
