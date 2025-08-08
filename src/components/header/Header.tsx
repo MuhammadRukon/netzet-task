@@ -22,10 +22,10 @@ export function Header() {
         text={announcementBarContent.text}
       />
 
-      <Container type={ContainerType.HEADER} className="mt-4 sm:mt-[35px]">
-        <header className="grid grid-cols-3 sm:grid-cols-2 justify-center sm:justify-between items-center sm:items-start">
+      <Container type={ContainerType.HEADER} className="mt-4 md:mt-[35px]">
+        <header className="grid grid-cols-3 md:grid-cols-2 justify-center md:justify-between items-center md:items-start">
           {/* TODO: empty div for small screen to center the logo */}
-          <div className="sm:hidden"></div>
+          <div className="md:hidden"></div>
 
           <Logo />
 

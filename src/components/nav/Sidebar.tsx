@@ -2,7 +2,7 @@ import React from "react";
 
 export function Sidebar() {
   return (
-    <div className="sm:hidden">
+    <div className="md:hidden">
       <svg
         width="20"
         height="15"

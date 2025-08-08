@@ -5,7 +5,7 @@ import { INavbarProps } from "./Nav.types";
 
 export function Navbar({ navItems }: INavbarProps) {
   return (
-    <nav className="text-lg font-semibold text-[#a9a9a9] space-x-10 hidden sm:block">
+    <nav className="text-lg font-semibold text-[#a9a9a9] space-x-10 hidden md:block">
       {navItems.map((item) => (
         <Link key={item.label} href={item.href}>
           {item.label}
